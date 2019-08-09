@@ -1,0 +1,136 @@
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.box {
+  text-align: justify;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: .28571429rem;
+}
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    box-shadow: none;
+}
+
+.card-img-top {
+    display: block;
+    width: 70%;
+    height: 150px;
+}
+
+.box{
+    padding:20px 0px;
+}
+
+.box-part{
+    background:#eee;
+    border-radius:20px;
+    padding:10px 5px;
+    margin:10px;
+    width: 250px;
+}
+.text{
+    margin:20px 0px;
+}
+.agoi-img{
+height: 150px;
+border-bottom:2px solid #0062cc;
+}
+
+/*International Founding Members & Patrons*/
+.profile-card {
+    background-color: #e86d40;
+    height: auto;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;          
+      
+    }
+.profile-card img{
+          border-radius: 30px;          
+        }
+
+.profile-card img:hover{
+transform: scale(1.1);
+}
+        
+.profile-info {
+    color: #000;
+    padding: 15px;
+      position: relative;
+      margin-top: 10px;
+        }
+    
+.profile-info h2 {
+   color: #E8E8E8;
+    letter-spacing: 2px;
+    font-size: 22px;
+    padding-bottom: 4px;
+        }
+        
+.profile-info span {
+  display: block;
+    font-size: 12px;
+    color: #fff;
+  letter-spacing: 2px;
+      }
+        
+/* Underline From Center */
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 52%;
+  right: 52%;
+  bottom: 0;
+  background: #FFFFFF;
+  border-radius: 50%;
+  height: 3px;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.profile-card:hover .hvr-underline-from-center:before, .profile-card:focus .hvr-underline-from-center:before, .profile-card:active .hvr-underline-from-center:before {
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #CECECE;
+}
+
+
+/*CARASUEL*/
